@@ -8,9 +8,9 @@ app.use(express.json());
 app.get("/videosend", (req, res) => {
 
     const name = req.body;
-    res.send("hello world");
-    res.send("request: ", req);
+    // res.send("request: ", req);
     res.send("request body: ", name);
+    // res.send("hello world");
 
 })
 
